@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 #This is the groceries hash we'll be passing in to the get_the_values method
 # groceries = {
@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.values.flatten
-  binding.pry
+  # binding.pry
 end
